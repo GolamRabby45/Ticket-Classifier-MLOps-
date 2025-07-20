@@ -1,0 +1,12 @@
+pandas
+requests
+apache-airflow
+dvc
+transformers
+torch
+scikit-learn
+mlflow
+fastapi
+prometheus_client
+uvicorn[standard]
+datasets

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Data
+data/raw/
+data/processed/
+
+# DVC
+.dvc/
+
+# MLflow
+mlruns/
+
+# Logs
+*.log
