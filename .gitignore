@@ -4,8 +4,13 @@ __pycache__/
 venv/
 
 # Data
-data/raw/
-data/processed/
+# Data files (ignore raw & processed CSVs)
+data/raw/*.csv
+!data/raw/*.dvc
+
+data/processed/*.csv
+!data/processed/*.dvc
+
 
 # DVC
 .dvc/
